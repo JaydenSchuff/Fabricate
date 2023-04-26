@@ -1,0 +1,97 @@
+:root {
+    --bgColor: rgb(3, 63, 11);
+    --txtColor: white;
+    --paddingLft: 5px;
+    --hoverBg:#0f220c;
+}
+
+body{
+    background-color: rgb(39, 36, 36);
+}
+
+header{
+    font-size: 100px;
+    text-align: center;
+    border: solid black 10px;
+    margin: 15px;
+    padding: 20px;
+    background-color: var(--bgColor);
+    color: var(--txtColor) ;
+    box-shadow: 10px 2px 10px black;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:var(--bgColor);
+    border: solid black 5px;
+    display: block;
+    text-align: center;
+    box-shadow: 10px 10px 10px;
+    width: 95%;
+    margin-left: 50px;
+}
+
+
+.navLi {
+    display: inline-block;
+    list-style-type: none;
+}
+  
+.navLi a {
+    display: block;
+    color: var(--txtColor);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+  
+.navLi a:hover {
+    background-color:var(--hoverBg);
+}
+
+.grid{
+    margin: 40px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.section{
+    background-color: var(--bgColor);
+    border: black solid 4px;
+    width: 100%;
+    margin: 15px;
+    box-shadow: 10px 10px 10px;
+}
+
+.section:hover{
+    background-color: var(--hoverBg);
+}
+
+h5{
+    padding-left:var(--paddingLft);
+    color: var(--txtColor);
+}
+
+p{
+    padding-left:var(--paddingLft);
+    color: var(--txtColor);
+}
+
+content{
+    float: right;
+    background-color: var(--bgColor);
+    border: solid black 4px;
+    margin-top: 57px;
+    width: 70%;
+    height: 430px;
+    box-shadow: 10px 10px 10px black;
+    color: var(--txtColor);
+    margin-right: 50px;
+}
+
+
