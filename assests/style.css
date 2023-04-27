@@ -87,11 +87,17 @@ content{
     background-color: var(--bgColor);
     border: solid black 4px;
     margin-top: 57px;
-    width: 70%;
+    width: 60%;
     height: 430px;
     box-shadow: 10px 10px 10px black;
     color: var(--txtColor);
     margin-right: 50px;
 }
 
+.footer{
+    border-bottom: solid black 2px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
 
